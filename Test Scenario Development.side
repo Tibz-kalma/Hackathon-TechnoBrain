@@ -1,0 +1,236 @@
+{
+  "id": "fab2d613-88d6-4e83-b98b-b0fcc0e01f95",
+  "version": "2.0",
+  "name": "Test S",
+  "url": "https://www.jumia.co.ke",
+  "tests": [{
+    "id": "f537aece-7c49-4dc5-8800-6625006997bb",
+    "name": "Jumia",
+    "commands": [{
+      "id": "f4b4ea87-20b8-44a7-b6a4-55de581bcb33",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "739a9527-e5e6-4c80-908a-2deebe19d5e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1353x722",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed62186b-7d46-4e63-95e5-ca17b387dc66",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,240)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2177ca0b-4d2e-4704-81e7-92bc8cf3d0a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.itm:nth-child(3) > .text",
+      "targets": [
+        ["css=.itm:nth-child(3) > .text", "css:finder"],
+        ["xpath=//div[@id='jm']/main/div/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Phones & Tablets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc53cae-d074-44fb-a0ff-8351abb6f43d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,504)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd25696f-b37a-4f77-9a17-34bcabb917fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) > .core > .img",
+      "targets": [
+        ["css=.col:nth-child(1) > .core > .img", "css:finder"],
+        ["xpath=//img[@alt=\"XIAOMI Redmi 13c, 6.47'',&nbsp; 256GB + 8GB RAM (Dual SIM) 5000mAh, 4G - Midnight Black\"]", "xpath:img"],
+        ["xpath=//section[@id='ctlg']/div/div[2]/section/div/article/a/img", "xpath:idRelative"],
+        ["xpath=//article/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dacd4f48-713c-425e-b48c-3e4bc9e3f21e",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=#add-to-cart > .add", "css:finder"],
+        ["xpath=//button[@name='action']", "xpath:attributes"],
+        ["xpath=//form[@id='add-to-cart']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09dd1986-bfbf-497e-aa09-3c542bcf15ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=(5 verified ratings)",
+      "targets": [
+        ["linkText=(5 verified ratings)", "linkText"],
+        ["css=.-i-ctr > .-plxs", "css:finder"],
+        ["xpath=//a[contains(text(),'(5 verified ratings)')]", "xpath:link"],
+        ["xpath=//div[@id='jm']/main/div/section/div/div[2]/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/productratingsreviews/sku/XI996MP44ZEWMNAFAMZ/')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'(5 verified ratings)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a8619ad-b09e-4304-8774-6b1c7b8ec7df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,336)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d381a8e-9121-4d2f-bebd-c48dc0abb10f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,371)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94dfb089-dd00-4b27-b2f1-5e708e48c002",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.cbs:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[6]", "xpath:link"],
+        ["xpath=//div[@id='jm']/main/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[423]", "xpath:href"],
+        ["xpath=//main/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d4b2c98-53e9-467e-8b22-e6632e84d40a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shirts",
+      "targets": [
+        ["linkText=Shirts", "linkText"],
+        ["css=.sub:nth-child(14) .co:nth-child(1) .s-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shirts')]", "xpath:link"],
+        ["xpath=//div[@id='jm']/main/div/div/div/div/div[7]/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mens-shirts/')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Shirts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "781e35ba-1809-4ca0-87ba-30dc4e89cf86",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,553)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aafc0b63-24db-46a3-860c-d1cf5daa9ee2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,824)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67535317-ca32-4565-8232-5dafc285e88e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.itm:nth-child(1) .img",
+      "targets": [
+        ["css=.itm:nth-child(1) .img", "css:finder"],
+        ["xpath=//img[@alt='Fashion Men Dress Shirt Long Sleeve Business Formal Regular Fit Office Shirt White']", "xpath:img"],
+        ["xpath=//section[@id='ctlg']/div/div[2]/section/div/div/div/article/a/img", "xpath:idRelative"],
+        ["xpath=//article/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3996954b-257c-498b-8cd9-e194987f3134",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add-to-cart span",
+      "targets": [
+        ["css=#add-to-cart span", "css:finder"],
+        ["xpath=//div[@id='add-to-cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcc97445-d4b0-4dae-9f58-4aba45b87b45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-ptm > .\\_prim",
+      "targets": [
+        ["css=.-ptm > .\\_prim", "css:finder"],
+        ["xpath=//a[contains(text(),'View Cart and Checkout')]", "xpath:link"],
+        ["xpath=//div[@id='pop']/div/section/div/footer/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cart/')])[2]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "571edd19-56e2-47eb-812e-97352b9c21a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,226)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e20629fe-85ea-4e89-bf42-0d0568033459",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.-gy9", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//div[@id='jm']/header/section/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart/')]", "xpath:href"],
+        ["xpath=//section/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf6ddcfc-8447-4445-ac11-cb1c1b218313",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-bt > .btn",
+      "targets": [
+        ["css=.-bt > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout (KSh 15,960)')]", "xpath:link"],
+        ["xpath=//div[@id='jm']/main/div/div[2]/div/article/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/checkout/summary/')]", "xpath:href"],
+        ["xpath=//article/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f90d95a4-281b-4333-82db-c5ccab4c2ce9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,113)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2019c806-6b96-4d70-aa48-323806e078ae",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f537aece-7c49-4dc5-8800-6625006997bb"]
+  }],
+  "urls": ["https://www.jumia.co.ke/"],
+  "plugins": []
+}
